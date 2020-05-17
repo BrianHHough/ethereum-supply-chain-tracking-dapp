@@ -21,7 +21,8 @@ contract FarmerRole {
 
   // Define a modifier that checks to see if msg.sender has the appropriate role
   modifier onlyFarmer() {
-    require(isFarmer(msg.sender));
+    // the person doing this MUST be a farmer, so we'll use isDistributor to verify:
+    require(isFarmer(msg.sender), "Only a Farmer can do this");
     _;
   }
 

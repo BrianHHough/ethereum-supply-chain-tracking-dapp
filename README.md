@@ -59,11 +59,15 @@ Contracts Address:
 
 
 **Dependencies**
-- Verify the latest Truffle version (v5.0.2) is installed, or if not, use the command to do so: `npm install -g truffle`
+- Verify the latest Truffle version (v5.1.13) is installed with `truffle -version`, or if not, use the command to do so: `npm install -g truffle`
 - Run the command: `truffle init` to initialize a truffle project.
 - Run `npm install --save truffle-hdwallet-provider` used to set up the provider to connect to the Infura Node
 - Run `npm install openzeppelin-solidity`
 - Run `npm install web3`
+
+**Smart Contracts**
+- Update all smart contracts with `>=` instead of `^` where applicable for each `pragma solidity ^0.4.24` statement at the top.
+
 
 
 **Running a local Ethereum network and deploying to the local network**
@@ -71,7 +75,6 @@ Contracts Address:
 - Run command `truffle develop` (to run a local ethereum network)
 - Use command `compile` (to compile your solidity contract files)
 - Use command `migrate --reset` (to deploy your contract to the locally running ethereum network)
-
 
 **Deploying to the Rinkeby Ethereum testnet using Truffle**
 - Terminal command to deploy to Rinkeby using truffle: `truffle migrate --reset --network rinkeby`

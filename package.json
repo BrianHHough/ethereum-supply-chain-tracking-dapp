@@ -1,5 +1,5 @@
 {
-  "name": "supply-chain-E",
+  "name": "coffee-authenticity-supply-chain",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
   "license": "MIT",
   "devDependencies": {
     "lite-server": "2.4.0"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^3.0.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.7"
   }
 }

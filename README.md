@@ -34,7 +34,7 @@ ___
 - **Infura:** used to run the application without needing to set up an Ethereum node or wallet by using a hosted Ethereum node cluster.
 - **Diagrams.net:** used to design the UML diagrams and DAPP/blockchain architecture before building.
 
-### General Resources Used:
+### Resources Used:
 - [LucidChart: UML Activity Diagram Tutorial](https://www.lucidchart.com/pages/uml-activity-diagram)
 
 - [LucidChart: Guide to Drawing a Sequence Diagram in UML](https://www.lucidchart.com/pages/how-to-draw-a-sequence-diagram-in-UML?a=1)
@@ -47,17 +47,34 @@ ___
 
 - [LucidChart: How to Draw a State Machine Diagram in UML](https://www.lucidchart.com/pages/how-to-draw-a-state-machine-diagram-in-uml)
 
-___
 
 ## Requirement 3: General Write Up
 
 Contracts Address:
 
 
-Steps Used:
+### Steps Used:
+**Architecture**
 - Used [Diagrams.net](https://app.diagrams.net/) for construction of UML diagrams because [LucidChart](https://www.lucidchart.com/) only allowed me to use 60 items on the free plan 🙃
 
 
+**Dependencies**
+- Verify the latest Truffle version (v5.0.2) is installed, or if not, use the command to do so: `npm install -g truffle`
+- Run the command: `truffle init` to initialize a truffle project.
+- Run `npm install --save truffle-hdwallet-provider` used to set up the provider to connect to the Infura Node
+- Run `npm install openzeppelin-solidity`
+- Run `npm install web3`
+
+
+**Running a local Ethereum network and deploying to the local network**
+- Open a Terminal window, and cd into project directory
+- Run command `truffle develop` (to run a local ethereum network)
+- Use command `compile` (to compile your solidity contract files)
+- Use command `migrate --reset` (to deploy your contract to the locally running ethereum network)
+
+
+**Deploying to the Rinkeby Ethereum testnet using Truffle**
+- Terminal command to deploy to Rinkeby using truffle: `truffle migrate --reset --network rinkeby`
 
 ___
 

@@ -10,13 +10,13 @@ ___
 
 - **[Activity Diagram](./architecture/UML-Diagrams-Activity-Diagram.png):** Flow of one activity to another in the system. Captures dynamic behavior of the system.
 
-- **[Sequence Diagram](.../architecture/UML-Diagrams-Sequence-Diagram.png):** Integration between objects in the sequence in which they take place.
+- **[Sequence Diagram](./architecture/UML-Diagrams-Sequence-Diagram.png):** Integration between objects in the sequence in which they take place.
 
-- **[State Diagram](.../architecture/UML-Diagrams-State-Diagram.png):** Shows changes from one state to another and usually depicts the creation state and final states if there are any.
+- **[State Diagram](./architecture/UML-Diagrams-State-Diagram.png):** Shows changes from one state to another and usually depicts the creation state and final states if there are any.
 
-- **[Classes Diagram (Data Model)](.../architecture/UML-Diagrams-Class-(Data-Modeling).png):** A structure that represents the components of a systems by illustrating the system's classes, attributes, operations, and how the objects may be connected.
+- **[Classes Diagram (Data Model)](./architecture/UML-Diagrams-Class-(Data-Modeling).png):** A structure that represents the components of a systems by illustrating the system's classes, attributes, operations, and how the objects may be connected.
 
-- For Practice to warm-up: [LucidChart's tutorial](.../architecture/Practice-Sequence-Diagram-Example-(LucidChart).png) based on this [LucidChart video tutorial](https://www.youtube.com/watch?v=pCK6prSq8aw)
+- For Practice to warm-up: [LucidChart's tutorial](./architecture/Practice-Sequence-Diagram-Example-(LucidChart).png) based on this [LucidChart video tutorial](https://www.youtube.com/watch?v=pCK6prSq8aw)
 
 
 ### Requirement 2: Project Write-up - Libraries

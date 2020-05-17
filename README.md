@@ -16,7 +16,7 @@ ___
 
 - **[Classes Diagram (Data Model)](./architecture/UML-Diagrams-Class-(Data-Modeling).png):** A structure that represents the components of a systems by illustrating the system's classes, attributes, operations, and how the objects may be connected.
 
-- For Practice to warm-up: [LucidChart's tutorial](./architecture/Practice-Sequence-Diagram-Example-(LucidChart).png) based on this [LucidChart video tutorial](https://www.youtube.com/watch?v=pCK6prSq8aw)
+- For Practice to warm-up: [LucidChart tutorial on ATM transactions with a bank](./architecture/Practice-Sequence-Diagram-Example-(LucidChart).png) based on this [LucidChart video tutorial](https://www.youtube.com/watch?v=pCK6prSq8aw)
 
 
 ### Requirement 2: Project Write-up - Libraries

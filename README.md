@@ -4,9 +4,9 @@ I created a DApp supply chain solution to prove the authenticity of coffee by le
 
 ___
 
-## Part 1: Plan the Project With Write-Ups
+# Part 1: Plan the Project With Write-Ups
 
-### Requirement 1: UML Architecture Diagrams (Project Write-Up)
+## Requirement 1: UML Architecture Diagrams (Project Write-Up)
 
 - **[Activity Diagram](./architecture/UML-Diagrams-Activity-Diagram.png):** Flow of one activity to another in the system. Captures dynamic behavior of the system.
 
@@ -19,7 +19,7 @@ ___
 - For Practice to warm-up: [LucidChart tutorial on ATM transactions with a bank](./architecture/Practice-Sequence-Diagram-Example-(LucidChart).png) based on this [LucidChart video tutorial](https://www.youtube.com/watch?v=pCK6prSq8aw)
 
 
-### Requirement 2: Project Write-up - Libraries
+## Requirement 2: Project Write-up - Libraries
 
 ### Programming Libraries Used:
 - **Truffle v5.1.14-nodeLTS.0 (core: 5.1.13):** used in project to deploy, test, and deploy DApp's smart contracts.
@@ -49,7 +49,7 @@ ___
 
 ___
 
-### Requirement 3: General Write Up
+## Requirement 3: General Write Up
 
 Contracts Address:
 
@@ -61,19 +61,19 @@ Steps Used:
 
 ___
 
-## Part 2: Write smart contracts
+# Part 2: Write smart contracts
 
 ___
 
-## Part 3: Test smart contract code coverage
+# Part 3: Test smart contract code coverage
 
 ___
 
-## Part 4: Deploy smart contracts on a public test network (Rinkeby)
+# Part 4: Deploy smart contracts on a public test network (Rinkeby)
 
 ___
 
-## Part 5: Modify client code to interact with smart contracts
+# Part 5: Modify client code to interact with smart contracts
 
 ___
 

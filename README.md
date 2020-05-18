@@ -72,17 +72,15 @@ ___
 
 ## Requirement 1: Define and Required Implement Interfaces
 
-### **Necessary Updates**
-- Updated all smart contracts with `>=` instead of `^` where applicable for each `pragma solidity ^0.4.24` statement at the top.
-
-### Analyze base contracts:
-- **AccessControl:** Collection of Contracts: These contracts manages the various addresses and constraints for operations that can be executed only by specific roles.
-- **Base:** SupplyChain.sol: This is where we define the most fundamental code shared throughout the core functionality. This includes our main data storage, constants and data types, plus internal functions for managing these items.
-- **Core:** Ownable.sol: is the contract that controls ownership and transfer of ownership.
+**Necessary Updates**
+- Updated all smart contracts with `>=` instead of `^` where applicable for each `pragma solidity ^0.4.24` statement at the top. See: [contracts](./contracts).
 
 
 ## Requirement 2: Build Out `AccessControl` Contracts
-- The files in `[coffeeaccesscontrol](./coffeeaccesscontrol)` control access control for each actor:
+
+**AccessControl:** Collection of Contracts: These contracts manages the various addresses and constraints for operations that can be executed only by specific roles.
+
+- The files in `[coffeeaccesscontrol](./contracts/coffeeaccesscontrol)` control access control for each actor:
     1. Farmer: The Farmer can harvest coffee beans, process coffee beans, pack coffee palettes, add coffee palettes, ship coffee palettes, and track authenticity.
     2. Distributor: The Distributor can buy coffee palettes and track authenticity.
         - NOTE: Manufacturers (i.e. UML diagrams) and distributors (smart contracts/codebase) are used interchangeably.
@@ -93,11 +91,31 @@ ___
 **Objective:** build out these contracts so that each actor’s role in the supply chain is distinct with no overlap in their access abilities.
 
 
-
 ## Requirement 3: Build Out Base Contract
+
+**Base:** SupplyChain.sol: This is where we define the most fundamental code shared throughout the core functionality. This includes our main data storage, constants and data types, plus internal functions for managing these items.
+
+The file in `[coffeeaccesscontrol](./contracts/coffeebase)`  called `[SupplyChain.sol](./contracts/SupplyChain.sol)` holds all common structs, events and base variables:
+- Product ID
+- Product UPC
+- Origination Information
+- Origin Actor (e.g. Farmer ID, Farmer Name, )
+- Misc. organization information (e.g. Farmer Information)
+- Misc. organization information (e.g. Farmer Information)
+- Longitude and Latitude of Origin Coordinates (e.g. Farm’s 
+- Longitude and Latitude)
+- Product notes
+- Product price
 
 
 ## Requirement 4: Build Out Core Contract
+
+**Core:** Ownable.sol: is the contract that controls ownership and transfer of ownership.
+
+- Defined `contract SupplyChain` for: `ConsumerRole`, `DistributorRole`, `FarmerRole`, and `RetailerRole`
+    - These are the four actors in the supply chain we care about and want to build relationships between.
+
+![](./images/Contracts-compiled-successfully.png)
 
 ___
 

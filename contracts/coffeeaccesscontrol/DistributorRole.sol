@@ -7,7 +7,7 @@ import "./Roles.sol";
 
 // Define a contract 'DistributorRole' to manage this role - add, remove, check
 contract DistributorRole {
-
+  using Roles for Roles.Role;
   // Define 2 events, one for Adding, and other for Removing
 
   // Event for Adding

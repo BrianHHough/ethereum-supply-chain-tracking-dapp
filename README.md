@@ -117,6 +117,7 @@ The file in `[coffeeaccesscontrol](./contracts/coffeebase)`  called `[SupplyChai
 - Defined `contract SupplyChain` for: `ConsumerRole`, `DistributorRole`, `FarmerRole`, and `RetailerRole`
     - These are the four actors in the supply chain we care about and want to build relationships between.
 
+**Contracts all compile successfully:**
 ![](./images/Contracts-compiled-successfully.png)
 
 ___
@@ -135,7 +136,8 @@ Implemented a set of 10 function tests for:
 - `fetchItemBufferOne()`
 - `fetchItemBufferTwo()`
 
-
+**All 10 tests pass successfully:**
+![](./images/Tests-all-pass!.png)
 
 ___
 

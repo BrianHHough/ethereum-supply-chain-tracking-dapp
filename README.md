@@ -52,8 +52,29 @@ ___
 
 ## Requirement 3: General Write Up
 
-Contracts Address:
+### Contracts Address:**
+1. **Deploying 'Migrations'**
+[0xf8253Fd6C4711a4577F93381198e7771068Ea833](https://etherscan.io/address/0xf8253Fd6C4711a4577F93381198e7771068Ea833)
 
+2. **Deploying Contracts:**
+FarmerRole:
+[0x1AC4E45030afa82A6F7359a8Be66f24dAFa38888](https://etherscan.io/address/0x1AC4E45030afa82A6F7359a8Be66f24dAFa38888)
+
+DistributorRole:
+[0x149e93c90CC53FDbeEe8e3E4CB1D2C75771FbF66](https://etherscan.io/address/0x149e93c90CC53FDbeEe8e3E4CB1D2C75771FbF66)
+
+RetailerRole:
+[0x27b93DE2406c4B752dF723E127777Ae6DbFd62a7](https://etherscan.io/address/0x27b93DE2406c4B752dF723E127777Ae6DbFd62a7)
+
+ConsumerRole:
+[0x7Bf3e485d0AE8E3c94954FdE224Ad0eC8Ec1CDF0](https://etherscan.io/address/0x7Bf3e485d0AE8E3c94954FdE224Ad0eC8Ec1CDF0)
+
+SupplyChain:
+[0x5a8298B0b0d58aBFf0E7B64A252060Def91e15e9](https://etherscan.io/address/0x5a8298B0b0d58aBFf0E7B64A252060Def91e15e9)
+
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)
 
 ### Steps Used:
 
@@ -151,10 +172,8 @@ ___
 
 ### **Deploying to the Rinkeby Ethereum testnet using Truffle**
 - Terminal command to deploy to Rinkeby using truffle: `truffle migrate --reset --network rinkeby`
-___
 
-# Part 5: Modify client code to interact with smart contracts
-
-___
-
-## Optional: Implement Infura to store product image
+# Migrations Output in the Terminal:
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)

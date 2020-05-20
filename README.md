@@ -47,6 +47,8 @@ ___
 
 - [LucidChart: How to Draw a State Machine Diagram in UML](https://www.lucidchart.com/pages/how-to-draw-a-state-machine-diagram-in-uml)
 
+- [BitDegree: Local and State Solidity Variables and Use of Parameters](https://www.bitdegree.org/learn/solidity-variables)
+
 
 ## Requirement 3: General Write Up
 
@@ -91,7 +93,7 @@ ___
 **Objective:** build out these contracts so that each actor’s role in the supply chain is distinct with no overlap in their access abilities.
 
 
-## Requirement 3: Build Out Base Contract
+## Requirement 3: Build Out `Base` Contract
 
 **Base:** SupplyChain.sol: This is where we define the most fundamental code shared throughout the core functionality. This includes our main data storage, constants and data types, plus internal functions for managing these items.
 
@@ -108,7 +110,7 @@ The file in `[coffeeaccesscontrol](./contracts/coffeebase)`  called `[SupplyChai
 - Product price
 
 
-## Requirement 4: Build Out Core Contract
+## Requirement 4: Build Out `Core` Contract
 
 **Core:** Ownable.sol: is the contract that controls ownership and transfer of ownership.
 
@@ -120,6 +122,20 @@ The file in `[coffeeaccesscontrol](./contracts/coffeebase)`  called `[SupplyChai
 ___
 
 # Part 3: Test smart contract code coverage
+
+Implemented a set of 10 function tests for: 
+- `harvestItem()`
+- `processItem()`
+- `packItem()`
+- `addItem()`
+- `buyItem()`
+- `shiptItem()`
+- `receiveItem()`
+- `purchaseItem()`
+- `fetchItemBufferOne()`
+- `fetchItemBufferTwo()`
+
+
 
 ___
 

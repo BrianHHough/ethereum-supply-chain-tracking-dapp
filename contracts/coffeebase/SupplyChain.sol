@@ -21,8 +21,11 @@ import "../coffeeaccesscontrol/ConsumerRole.sol";
 import "../coffeeaccesscontrol/DistributorRole.sol";
 import "../coffeeaccesscontrol/FarmerRole.sol";
 import "../coffeeaccesscontrol/RetailerRole.sol";
+// You should inherit the Ownable.sol smart contract here and leverage the modifiers defined in that smart contract and use it below as well (line 27)
+import "../coffeecore/Ownable.sol";
 
-contract SupplyChain is ConsumerRole, DistributorRole, FarmerRole, RetailerRole {
+// leverage modifiers defined in the Ownable smart contract and use it here:
+contract SupplyChain is Ownable, ConsumerRole, DistributorRole, FarmerRole, RetailerRole {
 
   // Define 'owner'
   address contractOwner;

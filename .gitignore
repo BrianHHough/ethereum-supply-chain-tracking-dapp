@@ -3,3 +3,4 @@
 node_modules
 build
 .secret
+ganache-cli.js

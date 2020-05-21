@@ -172,9 +172,7 @@ ___
 - Run: `truffle migrate`
     - This migrates the smart contracts to the locally running blockchain, ganache-cli
 - Test the smart contracts by running: `truffle test`
-- In a separate terminal window, run: 
-
-    `npm run dev`
+- In a separate terminal window, run: `npm run dev`
 
 
 ### **Running a local Ethereum network and deploying to the local network**

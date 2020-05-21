@@ -164,6 +164,19 @@ ___
 
 # Part 4: Deploy smart contracts on a public test network (Rinkeby)
 
+### **Deploy in Ganache**
+- Open Ganache in-app
+- Run in the terminal: `ganache-cli -m "SEED FROM THE .Secret FILE"`
+- In a separate terminal window, run: `truffle compile`
+    - This will create the smart contract artifacts in folder `build\contracts`.
+- Run: `truffle migrate`
+    - This migrates the smart contracts to the locally running blockchain, ganache-cli
+- Test the smart contracts by running: `truffle test`
+- In a separate terminal window, run: 
+
+    `npm run dev`
+
+
 ### **Running a local Ethereum network and deploying to the local network**
 - Open a Terminal window, and cd into project directory
 - Run command `truffle develop` (to run a local ethereum network)
